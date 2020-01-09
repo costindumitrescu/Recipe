@@ -22,7 +22,7 @@ const getRecipies = async () => {
 };
 
 const updateSearch = e => {
-setSearch(e.taget.value);
+setSearch(e.target.value);
 };
 
 const getSearch = e => {
@@ -35,15 +35,10 @@ setSearch('');
     <div className = "App">
     <form onSubmit={getSearch} className= "search-form">
       <input className= "search-bar" type="" value={search} onChange={updateSearch}/>
-      <button onClick={() => setCounter(counter + 1)} className= "search-button" type="submit">
-        {counter}
+      <button className= "search-button" type="submit"> Search
       </button>
     </form>
-    <div className= "reciepies" {
-      constructor() {
-
-      }
-    }>
+    <div className= "reciepes">
     {recipies.map(recipe =>(<Recipe
       key = {recipe.recipe.label }
       title= {recipe.recipe.label}

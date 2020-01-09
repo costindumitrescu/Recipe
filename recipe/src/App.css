@@ -12,6 +12,7 @@
 
 .search-bar{
   width: 50%;
+  height: 25px;
   border: none;
   padding: 10px;
 }
@@ -19,11 +20,11 @@
 .search-button{
   background: orange;
   border: none;
-  padding: 10px 20px;
-  color: white;
+  padding: 16px 50px;
+  color: black;
 }
 
-.recipies{
+.recipes{
    display: flex;
    justify-content: space-around;
    flex-wrap: wrap;
