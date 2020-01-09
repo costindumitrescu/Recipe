@@ -39,6 +39,11 @@ setSearch('');
         {counter}
       </button>
     </form>
+    <div className= "reciepies" {
+      constructor() {
+
+      }
+    }>
     {recipies.map(recipe =>(<Recipe
       key = {recipe.recipe.label }
       title= {recipe.recipe.label}
@@ -49,6 +54,7 @@ setSearch('');
       total ={recipe.recipe.totalTime}
       health ={recipe.recipe.healthLabels}
       />))}
+      </div>
     </div>
   );
 }
